@@ -13,6 +13,10 @@ export const Route = createRootRoute({
           <Link to="/components-playground" className="[&.active]:font-bold">
             Playground
           </Link>
+          
+          <Link to="/composition" className="[&.active]:font-bold">
+            Composition
+          </Link>
 
           <Link to="/about" className="[&.active]:font-bold">
             About
