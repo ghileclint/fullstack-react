@@ -17,10 +17,14 @@ export const Route = createRootRoute({
           <Link to="/state-playground" className="[&.active]:font-bold">
             State
           </Link>
-
-          <Link to="/state-challenge" className="[&.active]:font-bold">
-            State-Challenge
+          
+          <Link to="/effect-playground" className="[&.active]:font-bold">
+            Effect
           </Link>
+
+          {/* <Link to="/state-challenge" className="[&.active]:font-bold">
+            State-Challenge
+          </Link> */}
 
           {/* <Link to="/composition" className="[&.active]:font-bold">
             Composition
