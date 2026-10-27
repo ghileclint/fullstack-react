@@ -13,6 +13,7 @@ export function StatePlayground() {
     lastName: "Adhikary",
     role: "Architect",
   });
+  
   const [count, setCount] = useState<number>(0);
 
   const handleNameChange = (newName: string) => {

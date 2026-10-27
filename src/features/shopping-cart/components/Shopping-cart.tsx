@@ -39,6 +39,7 @@ export function ShoppingCart() {
     (total, item) => total + item.price * item.quantity,
     0,
   );
+  
   return (
     <div className="border p-4 rounded-md">
       <p className="text-center">Shopping Cart</p>
